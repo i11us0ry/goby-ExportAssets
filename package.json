@@ -1,0 +1,26 @@
+{
+ "name": "ExportAssets",
+ "publisher": "goby牛逼",
+ "description": "自定义导出url、port、product",
+ "version": "0.2.0",
+ "engines": "1.7.199",
+ "initEvents": "",
+ "icon": "src/assets/img/import.png",
+ "main": "./src/extension.js",
+ "contributes": {
+  "views": {
+   "scanRes": {
+      "moreOptions": [
+        {
+          "command": "ExportAssets",
+          "title": "ExportAssets",
+          "icon": "src/assets/img/import.png"
+        }
+      ]
+   }
+  }
+ },
+ "scripts": {},
+ "devDependencies": {},
+ "dependencies": {}
+}

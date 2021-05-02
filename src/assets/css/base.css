@@ -1,0 +1,91 @@
+/* 滚动条轨道的样式 */
+::-webkit-scrollbar {
+  width: 5px;
+  /*竖向滚动条的宽度*/
+  height: 5px;
+  /*横向滚动条的高度*/
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/* 滚动条轨道内滑块的样式 */
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: #A0B0CD;
+}
+
+/* 当焦点不在当前区域滑块的状态 */
+::-webkit-scrollbar-thumb:window-inactive {
+  background-color: #FFFFFF;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  /*清除浮动*/
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+  /*IE/7/6*/
+}
+
+.export-btn {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  border:none;
+  margin-left: 30px;
+}
+
+.export-txt {
+  background:#e2e1e4;
+}
+
+.export-csv {
+  background:#e2e1e4;
+}
+
+.layui-export-btn{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.main-page{
+  width: 280px;
+  height: 100px;
+  /*background: white;*/
+}
+
+.layui-search{
+  width: 280px;
+}
+
+.search-input{
+  width: 276px;
+  border-radius: 5px;
+}
+
+.layui-radio{
+  margin-top: 20px;
+  display: flex;
+  color: white;
+  
+}
+
+.layui-radio input{
+  margin-left: 35px;
+}
+
