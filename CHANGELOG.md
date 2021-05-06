@@ -3,11 +3,11 @@
 ## github:https://github.com/i11us0ry/goby-ExportAssets
 
 v 0.1.0 更新
-1 导出urls
+- 导出urls
 
 v 0.2.1 更新
-1 修复了v 0.1.0只能导出https的问题
-2 新增了txt导出格式
+- 修复了v 0.1.0只能导出https的问题
+- 新增了txt导出格式
 
 v 0.2.3 更新
 - 修改了UI和导出数据
