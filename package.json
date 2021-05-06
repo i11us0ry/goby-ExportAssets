@@ -2,7 +2,7 @@
  "name": "ExportUrls",
  "publisher": "goby牛逼",
  "description": "自定义port、product导出url或ip",
- "version": "0.2.3",
+ "version": "0.2.4",
  "engines": "1.8.239",
  "initEvents": "",
  "icon": "src/assets/img/import.png",
