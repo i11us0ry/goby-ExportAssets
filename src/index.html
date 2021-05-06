@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/lib/layui/css/layui.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+  <div class="main-page">
+    <div class="layui-search">
+      <input class="search-input" type="text" name="search" value="">
+    </div>
+    <div class="layui-radio">
+      <label>
+        <input class="choose-radio" type="radio" name="choose" value="Url"> Url
+      </label>
+      <label>
+        <input class="choose-radio" type="radio" name="choose" value="Port"> Port
+      </label>
+      <label>
+        <input class="choose-radio" type="radio" name="choose" value="Product"> Product
+      </label>
+    </div>
+    <div class="layui-export-btn">
+      <button class="export-btn export-csv">Csv</button>
+      <button class="export-btn export-txt">Txt</button>
+    </div>
+  </di>
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/json2csv.js"></script>
+  <script src="assets/js/json2txt.js"></script>
+  <script src="assets/lib/layui/layui.all.js"></script>
+  <script src="btn-export.js"></script>
+</body>
+</html>

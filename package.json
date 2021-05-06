@@ -1,0 +1,24 @@
+{
+ "name": "ExportUrls",
+ "publisher": "goby牛逼",
+ "description": "自定义port、product导出url或ip",
+ "version": "0.2.3",
+ "engines": "1.8.239",
+ "initEvents": "",
+ "icon": "src/assets/img/import.png",
+ "main": "./src/extension.js",
+ "contributes": {
+  "views": {
+   "toolbar": [
+        {
+          "command": "ExportUrls",
+          "title": "ExportUrls",
+          "icon": "src/assets/img/import.png"
+        }
+      ]
+  }
+ },
+ "scripts": {},
+ "devDependencies": {},
+ "dependencies": {}
+}
