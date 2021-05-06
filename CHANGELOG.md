@@ -10,6 +10,6 @@ v 0.2.1 更新
 2 新增了txt导出格式
 
 v 0.2.3 更新
-1 修改了UI和导出数据
-2 新增根据port、product导出ip功能
-3 新增根据port、product导出url功能
+- 修改了UI和导出数据
+- 新增根据port、product导出ip功能
+- 新增根据port、product导出url功能
