@@ -29,4 +29,4 @@
 2. 没有做分流导出，所以数据量过大时可能会有延迟甚至失败
 3. 发现bug请及时反馈，感谢
 
-![RUNOOB 图标](https://imgtu.com/i/glZqDf)
+[![glZqDf.png](https://z3.ax1x.com/2021/05/06/glZqDf.png)](https://imgtu.com/i/glZqDf)
